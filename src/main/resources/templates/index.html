@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <link rel="stylesheet" href="assets/plugins/global/plugins.bundle.css">
+    <link rel="stylesheet" href="assets/css/style.bundle.css">
+    <script src="assets/plugins/global/plugins.bundle.js"></script>
+    <script src="assets/js/scripts.bundle.js"></script>
+    <script src="assets/js/pages/crud/forms/widgets/jquery.bootstrap-growl.js"></script>
+    <script src="assets/js/common.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.5.0/sockjs.min.js" integrity="sha512-5yJ548VSnLflcRxWNqVWYeQZnby8D8fJTmYRLyvs445j1XmzR8cnWi85lcHx3CUEeAX+GrK3TqTfzOO6LKDpdw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js" integrity="sha512-iKDtgDyTHjAitUDdLljGhenhPwrbBfqTKWO1mkhSFH3A7blITC9MhYon6SjnMhp4o0rADGw9yAC6EW4t5a4K3g==" crossorigin="anonymous"></script>
+    <script src="stomp.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="text-center col-4" style="padding-top: 30%">
+        <div id="info">
+            <label class="label-inline">Name</label>
+            <input class="form-control" type="text" id="name"/>
+            <button class="btn btn-primary btn-sm form-control mt-5" id="connect-btn">Submit</button>
+            <br>
+        </div>
+        <div id="messageBox" style="display: none">
+            <label class="label-inline">Send To</label>
+            <input class="form-control mb-5" type="text" id="destination"/>
+            <label class="label-inline">Message</label>
+            <input class="form-control" type="text" id="message"/>
+            <button class="btn btn-primary btn-sm form-control mt-5" id="send-btn">Submit</button>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
